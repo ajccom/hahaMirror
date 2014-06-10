@@ -1,7 +1,7 @@
 hahaMirror
 ==========
 
-haha mirror effect with javascript
+"HaHa" mirror effect with javascript.
 
 ### functions
 

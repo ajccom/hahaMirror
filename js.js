@@ -1,15 +1,3 @@
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="utf-8">
-<style>
-#canvas:hover {cursor: none}
-</style>
-</head>
-<body>
-<canvas id="canvas" width="200" height="200" ></canvas>
-<canvas id="canvas2" width="200" height="200" ></canvas>
-<script>
 "use strict"
 void function (isDebug) {
 	var app = {
@@ -256,7 +244,3 @@ void function (isDebug) {
   window.app = app;
 
 }(false);
-
-</script>
-</body>
-</html>
