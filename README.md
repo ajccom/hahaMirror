@@ -18,3 +18,5 @@ just zoom your image in an area.
 #### app.hahaMirror
 
 Yes, this function can generate the "HaHa" mirror effect.
+
+### In Chrome, you should run it on a web service.
