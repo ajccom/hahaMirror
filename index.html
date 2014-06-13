@@ -59,7 +59,7 @@
 <h3>
 <a name="in-chrome-you-should-run-it-on-a-web-service" class="anchor" href="#in-chrome-you-should-run-it-on-a-web-service"><span class="octicon octicon-link"></span></a>In Chrome, you should run it on a web service.</h3>
       </section>
-      <section>
+      <section style="width: 800px; margin: 0 auto; padding: 20px 0">
         <style>
         #canvas:hover {cursor: none}
         </style>
@@ -299,8 +299,8 @@
                 });
                 setInterval(function () {
                   if (app.isOk) {
-                    var x = app.e.clientX - c.offsetLeft,
-                        y = app.e.clientY - c.offsetTop;
+                    var x = Math.max(document.body.scrollTop, document.documentElement.scrollTop) + app.e.clientX - c.offsetLeft,
+                        y = Math.max(document.body.scrollTop, document.documentElement.scrollTop) + app.e.clientY - c.offsetTop;
                     app.hahaMirror(x, y, 80, 1);
                   }
                 }, 25);
