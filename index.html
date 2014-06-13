@@ -299,7 +299,7 @@
                 });
                 setInterval(function () {
                   if (app.isOk) {
-                    var x = Math.max(document.body.scrollTop, document.documentElement.scrollTop) + app.e.clientX - c.offsetLeft,
+                    var x = app.e.clientX - c.offsetLeft,
                         y = Math.max(document.body.scrollTop, document.documentElement.scrollTop) + app.e.clientY - c.offsetTop;
                     app.hahaMirror(x, y, 80, 1);
                   }
