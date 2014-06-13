@@ -3,6 +3,8 @@ hahaMirror
 
 "HaHa" mirror effect with javascript.
 
+### [github pages](http://ajccom.github.io/hahaMirror/)
+
 ### functions
 
 #### app.to 
